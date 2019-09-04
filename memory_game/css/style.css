@@ -1,0 +1,39 @@
+.heading {
+font-family: "Raleway", sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+color:#0D2C40;
+}
+h2.heading{
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+
+p {
+font-family: "Droid Serif", "Bitter", serif;
+line-height: 26px;
+font-size: 18px
+}
+
+body {
+text-align: center;
+}
+
+a {
+	font-family: "Raleway", sans-serif;
+	color:#F15B31;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+.rale{
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 45px;
+	color:#0D2C40;
+	text-transform: uppercase;
+}
