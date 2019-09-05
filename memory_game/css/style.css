@@ -2,11 +2,17 @@
 font-family: "Raleway", sans-serif;
 font-weight: 400;
 text-transform: uppercase;
-color:#0D2C40;
+
 }
+
+h1{
+	margin: 0;
+}
+
 h2.heading{
 	font-size: 20px;
 	font-weight: 600;
+	color:#0D2C40;
 	
 }
 
@@ -18,22 +24,90 @@ font-size: 18px
 
 body {
 text-align: center;
+margin: 0;
 }
 
 a {
 	font-family: "Raleway", sans-serif;
-	color:#F15B31;
 	font-weight: 600;
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-size: 18px;
 	text-transform: uppercase;
+	padding: 0 20px;
+	color:#FFFFFF;
+	border-bottom: 2px solid transparent;
 
+}
+a:hover {
+border-color: white;
 }
 .rale{
 	font-family: "Raleway", sans-serif;
 	font-weight: 400;
 	font-size: 45px;
-	color:#0D2C40;
 	text-transform: uppercase;
 }
+header {
+	background-color: #F15B31;
+	color:#FFFFFF;
+	padding: 30px 20px;
+}
+
+nav{
+	background-color:#00A6B3;
+	color:#FFFFFF;
+	padding: 20px 0
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img{
+	margin: 40px 8px 0;
+}
+footer{
+	background: #0D2C40;
+}
+footer p{
+	text-transform: uppercase;
+	padding: 0 20px;
+	letter-spacing: .08em;
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.copyright{
+	float: left;
+}
+
+.name{
+color:#F15B31;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.message{
+	float: right;
+}
+
+
+
+
